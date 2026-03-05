@@ -500,5 +500,4 @@ body {
 @keyframes pulse-opacity { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
 
 /* ─── MISC ───────────────────────────────────────────────────────────── */
-.hide-sm { }
 @media (max-width: 600px) { .hide-sm { display: none; } }
