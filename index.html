@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renzo Xavier — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Unbounded:wght@200;400;700&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/web_design_portfolio/assets/index-CTx6Uxrv.js"></script>
+  <link rel="stylesheet" crossorigin href="/web_design_portfolio/assets/index-NvKC1dI0.css">
+</head>
+<body>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="home" class="hero">
+    <canvas id="webgl"></canvas>
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+
+    <header class="topbar">
+      <span class="topbar__item blink">■ ONLINE</span>
+      <span class="topbar__item" id="uptime">UP 00:00:00</span>
+      <span class="topbar__item hide-sm">NODE_ENV=production</span>
+      <span class="topbar__item" id="mem">MEM 0%</span>
+      <nav class="topbar__nav">
+        <a href="#home"    class="tnav">HOME</a>
+        <a href="#about"   class="tnav">ABOUT</a>
+        <a href="#work"    class="tnav">WORK</a>
+        <a href="#contact" class="tnav">CONTACT</a>
+      </nav>
+    </header>
+
+    <div class="identity">
+      <div class="identity__role">Psychologist &amp; Full-Stack Developer</div>
+      <h1 class="identity__name">Renzo<br>Xavier.</h1>
+      <div class="identity__links">
+        <a href="https://github.com/renzxavi" target="_blank" class="id-link">GH /renzxavi</a>
+        <span class="id-sep">//</span>
+        <a href="https://www.linkedin.com/in/renzoxavier/" target="_blank" class="id-link">LI /renzoxavier</a>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div class="legend__title">SERVICE GRAPH</div>
+      <ul class="legend__list">
+        <li><span class="dot dot--core"></span>Core API</li>
+        <li><span class="dot dot--db"></span>Database</li>
+        <li><span class="dot dot--queue"></span>Queue / Worker</li>
+        <li><span class="dot dot--cache"></span>Cache Layer</li>
+        <li><span class="dot dot--ext"></span>External Service</li>
+      </ul>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <div class="bottombar">
+      <span class="bottombar__item">© 2025 RENZO XAVIER</span>
+      <span class="bottombar__sep">//</span>
+      <span class="bottombar__item" id="fps">-- FPS</span>
+      <span class="bottombar__sep">//</span>
+      <span class="bottombar__item scroll-hint">SCROLL TO EXPLORE ↓</span>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="page-section">
+    <div class="section-inner">
+      <div class="sec-label">01 // ABOUT</div>
+      <div class="about-grid">
+        <div class="about-main">
+          <h2 class="sec-title">Building software<br>that understands people.</h2>
+          <p class="sec-body">I am a psychologist graduated from the <strong>University of the Republic</strong> with a cognitive-behavioral orientation — a background that gives me a broad perspective on AI, user experience, data analysis, and machine learning.</p>
+          <p class="sec-body">I'm also a programming analyst experienced in <strong>HTML, CSS, JavaScript, PHP, SQL Server, MySQL, MongoDB</strong> and frameworks like <strong>React Native, Next.js, Laravel, Supabase, Ionic</strong>. I design software and implement team workflows via Git and Scrum.</p>
+          <p class="sec-body">Beyond code I teach computer science, contribute to open source, and explore the intersection of psychology and technology.</p>
+        </div>
+        <div class="about-aside">
+          <div class="aside-card">
+            <div class="aside-card__label">EDUCATION</div>
+            <ul class="aside-card__list">
+              <li>Psychology — Univ. de la República</li>
+              <li>Programming Analyst</li>
+              <li>Diploma in Data Business Analytics</li>
+            </ul>
+          </div>
+          <div class="aside-card">
+            <div class="aside-card__label">STACK</div>
+            <ul class="aside-card__list">
+              <li>Frontend — React, Next.js, Ionic</li>
+              <li>Backend — PHP, Node.js, REST</li>
+              <li>DB — PostgreSQL, MySQL, MongoDB</li>
+              <li>Data — Python, ML, Analytics</li>
+              <li>DevOps — Git, Scrum, Agile</li>
+            </ul>
+          </div>
+          <div class="aside-card">
+            <div class="aside-card__label">INTERESTS</div>
+            <ul class="aside-card__list">
+              <li>Machine Learning</li>
+              <li>UX &amp; Behavior</li>
+              <li>Open Source · Teaching</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ WORK ░░ -->
+  <section id="work" class="page-section">
+    <div class="section-inner">
+      <div class="sec-label">02 // PROJECTS</div>
+      <h2 class="sec-title">Selected Work</h2>
+      <div class="projects">
+
+        <div class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__tags">
+              <span class="ptag">Startup</span>
+              <span class="ptag">Full-Stack</span>
+              <span class="ptag">Machine Learning</span>
+            </div>
+            <span class="project-card__status blink-slow">● ACTIVE</span>
+          </div>
+          <h3 class="project-card__title">Assessmas</h3>
+          <p class="project-card__desc">Client-server project focused on data analysis. A robust backend integrates machine learning techniques to process complex datasets and generate actionable business insights.</p>
+          <a href="https://www.assessmas.com" target="_blank" class="btn-amber">VIEW PROJECT →</a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__tags">
+              <span class="ptag">Community</span>
+              <span class="ptag">Open Source</span>
+            </div>
+                        <span class="project-card__status blink-slow">● ACTIVE</span>
+          </div>
+          <h3 class="project-card__title">Vuelta al Mundo<br>en unos 200 Mates</h3>
+          <p class="project-card__desc">Community open-source initiative to collect and visualize marketing data, built for social impact and data literacy.</p>
+          <a href="https://paintingcreatures-a11y.github.io/200mates/" target="_blank" class="btn-amber">VIEW PROJECT →</a>
+        </div>
+
+        <div class="project-card project-card--wip reveal">
+          <div class="project-card__header">
+            <div class="project-card__tags">
+              <span class="ptag ptag--wip">Work in Progress</span>
+            </div>
+            <span class="project-card__status blink">● BUILDING</span>
+          </div>
+          <h3 class="project-card__title">Next Project</h3>
+          <p class="project-card__desc">Something new is being built.<br>Check back soon.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="page-section">
+    <div class="section-inner">
+      <div class="sec-label">03 // CONTACT</div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="sec-title">Have a project<br>in mind?</h2>
+          <p class="sec-body">Send me a message and I will get back to you within 48 hours.</p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/renzoxavier/" target="_blank" class="c-link">
+              <span class="c-link__icon">LI</span> linkedin.com/in/renzoxavier
+            </a>
+            <a href="https://github.com/renzxavi" target="_blank" class="c-link">
+              <span class="c-link__icon">GH</span> github.com/renzxavi
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm" class="contact-form">
+            <div class="cf-row">
+              <div class="cf-group">
+                <label class="cf-label" for="fname">NAME</label>
+                <input class="cf-input" type="text" id="fname" name="name" placeholder="Your name" required />
+              </div>
+              <div class="cf-group">
+                <label class="cf-label" for="femail">EMAIL</label>
+                <input class="cf-input" type="email" id="femail" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="cf-group">
+              <label class="cf-label" for="fmessage">MESSAGE</label>
+              <textarea class="cf-input cf-textarea" id="fmessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn-amber btn-amber--full">SEND MESSAGE →</button>
+            <div id="form-message" class="form-msg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2025 RENZO XAVIER — ALL RIGHTS RESERVED</span>
+    <div class="site-footer__links">
+      <a href="https://www.linkedin.com/in/renzoxavier/" target="_blank">LINKEDIN</a>
+      <span>//</span>
+      <a href="https://github.com/renzxavi" target="_blank">GITHUB</a>
+    </div>
+  </footer>
+
+</body>
+</html>
